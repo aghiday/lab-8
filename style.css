@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+}

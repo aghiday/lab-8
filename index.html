@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="preferencesForm">
+        <label for="major">Major:</label>
+        <select id="major" name="major">
+            <option value="Computer and Information Technology">Computer and Information Technology</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Biology">Biology</option>
+            <option value="Business Administration">Business Administration</option>
+            <option value="Psychology">Psychology</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Physics">Physics</option>
+            <option value="History">History</option>
+            <option value="Literature">Literature</option>
+            <option value="Mathematics">Mathematics</option>
+        </select>
+        
+        <label for="courses">Courses:</label>
+        <select id="courses" name="courses">
+            <option value="Introduction to Programming">Introduction to Programming</option>
+            <option value="Data Structures">Data Structures</option>
+            <option value="Calculus II">Calculus II</option>
+            <option value="Physics I">Physics I</option>
+            <option value="Molecular Biology">Molecular Biology</option>
+            <option value="Genetics">Genetics</option>
+            <!-- Add more options based on availability -->
+        </select>
+
+        <label for="studyTimes">Preferred Study Times:</label>
+        <input type="text" id="studyTimes" name="studyTimes">
+
+        <label for="groupSize">Group Size:</label>
+        <input type="number" id="groupSize" name="groupSize">
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
